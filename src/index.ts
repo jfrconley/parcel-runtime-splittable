@@ -9,7 +9,7 @@ import {Bundler} from "@parcel/plugin"
 const {md5FromString, resolveConfigSync} = require("@parcel/utils")
 import nullthrows from "nullthrows"
 import * as invariant from "assert"
-import {join} from "path"
+import {resolve} from "path"
 
 
 
@@ -38,7 +38,7 @@ export default new Bundler({
         try {
             splitPaths = require(packageJSON).bundleSplits || [];
         } catch (e) {}
-        splitPaths = splitPaths.map(path => join(options.projectRoot, path))
+        splitPaths = splitPaths.map(path => resolve(options.projectRoot, path))
 
         // Step 1: create bundles for each of the explicit code split points.
         bundleGraph.traverse({
@@ -74,11 +74,13 @@ export default new Bundler({
                     let bundleByType: Map<string, Bundle> = new Map();
 
                     for (let asset of assets) {
+                        console.log(asset.isIsolated)
                         let bundle = bundleGraph.createBundle({
                             entryAsset: asset,
                             isEntry: asset.isIsolated ? false : Boolean(dependency.isEntry),
                             isInline: asset.isInline,
                             target: bundleGroup.target,
+
                         });
                         bundleByType.set(bundle.type, bundle);
                         bundleRoots.set(bundle, [asset]);
