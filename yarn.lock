@@ -961,7 +961,7 @@
   resolved "https://registry.yarnpkg.com/@parcel/events/-/events-2.0.0-nightly.513.tgz#190ea59d2439ed4e349675dbac81d76811f6d2df"
   integrity sha512-0HTeRsseEbkby/VwIXQoNUUSXf75xgQYhyglkNHXD/k2FnwRmo2ReitM3dywCHmso8zmoZ+BiYd9mpDMIx85xA==
 
-"@parcel/logger@2.0.0-nightly.513+e9e63bdf", "@parcel/logger@^2.0.0-nightly.513":
+"@parcel/logger@2.0.0-nightly.513+e9e63bdf":
   version "2.0.0-nightly.513"
   resolved "https://registry.yarnpkg.com/@parcel/logger/-/logger-2.0.0-nightly.513.tgz#1be17fcbb94ca01381724259c2ca743d0ed0fc16"
   integrity sha512-YYqkYSN+dlDyIZ4EUx8r+QfYTsU66Pnq2cP1QlN+2phqFJBsvrcOSvxi4P4piK9g5RV0rebFuKZcPn6x27twSQ==
@@ -3794,9 +3794,9 @@ xtend@~4.0.0, xtend@~4.0.1:
   integrity sha512-LKYU1iAXJXUgAXn9URjiu+MWhyUXHsvfp7mcuYm9dSUKK0/CjtrUwFAxD82/mCWbtLsGjFIad0wIsod4zrTAEQ==
 
 y18n@^3.2.1:
-  version "3.2.1"
-  resolved "https://registry.yarnpkg.com/y18n/-/y18n-3.2.1.tgz#6d15fba884c08679c0d77e88e7759e811e07fa41"
-  integrity sha1-bRX7qITAhnnA136I53WegR4H+kE=
+  version "3.2.2"
+  resolved "https://registry.yarnpkg.com/y18n/-/y18n-3.2.2.tgz#85c901bd6470ce71fc4bb723ad209b70f7f28696"
+  integrity sha512-uGZHXkHnhF0XeeAPgnKfPv1bgKAYyVvmNL1xlKsPYZPaIHxGti2hHqvOCQv71XMsLxu1QjergkqogUnms5D3YQ==
 
 yargs-parser@5.0.0-security.0:
   version "5.0.0-security.0"
