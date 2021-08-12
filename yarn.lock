@@ -961,7 +961,7 @@
   resolved "https://registry.yarnpkg.com/@parcel/events/-/events-2.0.0-nightly.513.tgz#190ea59d2439ed4e349675dbac81d76811f6d2df"
   integrity sha512-0HTeRsseEbkby/VwIXQoNUUSXf75xgQYhyglkNHXD/k2FnwRmo2ReitM3dywCHmso8zmoZ+BiYd9mpDMIx85xA==
 
-"@parcel/logger@2.0.0-nightly.513+e9e63bdf", "@parcel/logger@^2.0.0-nightly.513":
+"@parcel/logger@2.0.0-nightly.513+e9e63bdf":
   version "2.0.0-nightly.513"
   resolved "https://registry.yarnpkg.com/@parcel/logger/-/logger-2.0.0-nightly.513.tgz#1be17fcbb94ca01381724259c2ca743d0ed0fc16"
   integrity sha512-YYqkYSN+dlDyIZ4EUx8r+QfYTsU66Pnq2cP1QlN+2phqFJBsvrcOSvxi4P4piK9g5RV0rebFuKZcPn6x27twSQ==
@@ -2945,9 +2945,9 @@ path-is-absolute@^1.0.0:
   integrity sha1-F0uSaHNVNP+8es5r9TpanhtcX18=
 
 path-parse@^1.0.6:
-  version "1.0.6"
-  resolved "https://registry.yarnpkg.com/path-parse/-/path-parse-1.0.6.tgz#d62dbb5679405d72c4737ec58600e9ddcf06d24c"
-  integrity sha512-GSmOT2EbHrINBf9SR7CDELwlJ8AENk3Qn7OikK4nFYAu3Ote2+JYNVvkpAEQm3/TLNEJFD/xZJjzyxg3KBWOzw==
+  version "1.0.7"
+  resolved "https://registry.yarnpkg.com/path-parse/-/path-parse-1.0.7.tgz#fbc114b60ca42b30d9daf5858e4bd68bbedb6735"
+  integrity sha512-LDJzPVEEEPR+y48z93A0Ed0yXb8pAByGWo/k5YYdYgpY2/2EsOsksJrq7lOHxryrVOn1ejG6oAp8ahvOIQD8sw==
 
 path-root-regex@^0.1.0:
   version "0.1.2"
