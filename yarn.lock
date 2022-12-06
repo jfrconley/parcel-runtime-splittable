@@ -961,7 +961,7 @@
   resolved "https://registry.yarnpkg.com/@parcel/events/-/events-2.0.0-nightly.513.tgz#190ea59d2439ed4e349675dbac81d76811f6d2df"
   integrity sha512-0HTeRsseEbkby/VwIXQoNUUSXf75xgQYhyglkNHXD/k2FnwRmo2ReitM3dywCHmso8zmoZ+BiYd9mpDMIx85xA==
 
-"@parcel/logger@2.0.0-nightly.513+e9e63bdf", "@parcel/logger@^2.0.0-nightly.513":
+"@parcel/logger@2.0.0-nightly.513+e9e63bdf":
   version "2.0.0-nightly.513"
   resolved "https://registry.yarnpkg.com/@parcel/logger/-/logger-2.0.0-nightly.513.tgz#1be17fcbb94ca01381724259c2ca743d0ed0fc16"
   integrity sha512-YYqkYSN+dlDyIZ4EUx8r+QfYTsU66Pnq2cP1QlN+2phqFJBsvrcOSvxi4P4piK9g5RV0rebFuKZcPn6x27twSQ==
@@ -1561,9 +1561,9 @@ decamelize@^1.1.1:
   integrity sha1-9lNNFRSCabIDUue+4m9QH5oZEpA=
 
 decode-uri-component@^0.2.0:
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/decode-uri-component/-/decode-uri-component-0.2.0.tgz#eb3913333458775cb84cd1a1fae062106bb87545"
-  integrity sha1-6zkTMzRYd1y4TNGh+uBiEGu4dUU=
+  version "0.2.2"
+  resolved "https://registry.yarnpkg.com/decode-uri-component/-/decode-uri-component-0.2.2.tgz#e69dbe25d37941171dd540e024c444cd5188e1e9"
+  integrity sha512-FqUYQ+8o158GyGTrMFJms9qh3CqTKvAqgqsTnkLI8sKu0028orqBhxNMFkFen0zGyg6epACD32pjVk58ngIErQ==
 
 default-compare@^1.0.0:
   version "1.0.0"
